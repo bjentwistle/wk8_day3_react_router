@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react"; Don't need this anymore.
 
 const About = () => (
   <div>

@@ -5,6 +5,7 @@ import Pricing from "./components/Pricing";
 import NavBar from "./components/NavBar";
 import Contacts from "./components/Contacts";
 import ErrorPage from "./components/ErrorPage";
+import Product from "./components/Products";
 
 
 const App = ()=> {
@@ -23,6 +24,7 @@ const App = ()=> {
         <Route path = "/About" element= {<About/>} />
         <Route path = "/Pricing" element= {<Pricing prices={initialPriceList} />}/>
         <Route path = "/Contacts" element= {<Contacts/>} />
+        <Route path = "/Products/:product" element= {<Product/>} />
         <Route path = "*" element= {<ErrorPage/>} />
       </Routes>
     </Router>
